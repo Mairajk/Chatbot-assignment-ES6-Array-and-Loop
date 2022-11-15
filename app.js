@@ -13,7 +13,7 @@ const produce = () => {
     for (let i = 0; i < inputsNum; i++) {
 
         resultInputs.innerHTML += `
-        <input type="number" name="" class="numInputs" id="inputsNum${i}" value="0" min="0">`;
+        <input type="number" name="" class="numInputs" id="inputsNum${i}" value="0" >`;
 
     }
     formForNum.innerHTML += `
