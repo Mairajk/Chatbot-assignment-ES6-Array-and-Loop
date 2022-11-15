@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 20px;
+    margin: 50px auto;
+    width: fit-content;
+    color: white;
+    background-color: lightseagreen;
+    border-radius: 20px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+label {
+    font-weight: 500;
+    font-size: 25px;
+    color: lightseagreen;
+}
+
+input {
+    all: unset;
+    padding: 10px;
+    width: 150px;
+    max-width: fit-content;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+}
+
+input:focus {
+    box-shadow: 0px 0px 3px 1px lightseagreen;
+}
+
+.numInputs {
+    all: unset;
+    padding: 10px;
+    width: 100px;
+    max-width: fit-content;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    margin: 10px;
+    color: lightseagreen;
+    font-weight: 500px;
+}
+
+.numInputs:focus {
+    box-shadow: 0px 0px 2px 1px lightseagreen;
+}
+
+.resultInputs {
+    margin: 0px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#formForNum {
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    all: unset;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0px;
+    color: white;
+    background-color: lightseagreen;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+button:is(:hover, :focus) {
+    color: lightseagreen;
+    background-color: white;
+    border: 1px solid lightseagreen;
+    box-shadow: 0px 0px 2px 1px;
+    transition: 0.5s ease-in-out;
+}
+
+#formForInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#result {
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#resultA,
+#resultD {
+    text-align: center;
+    padding: 10px;
+    min-width: 80%;
+    max-width: fit-content;
+    font-size: 20px;
+    color: lightseagreen;
+    border: 2px solid lightseagreen;
+    box-shadow: 0px 0px 5px 3px;
+    margin: 20px auto;
+
+}
